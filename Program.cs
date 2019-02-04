@@ -13,6 +13,7 @@ namespace FileIO
         {
             //We need to create a reader and read to end to the get data out 
             //That data comes back as a big string, so we'll need our string methods 
+            Console.WriteLine("Sup");
             Console.WriteLine("Please input a country name");
             string inputCountry = Console.ReadLine();
             List<string> countries;
