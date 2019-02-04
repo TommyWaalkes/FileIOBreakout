@@ -23,6 +23,7 @@ namespace FileIO
             StreamWriter writer;
             try
             {
+                //Read is my file IO Reader
                 reader = new StreamReader(filePath);
                 string fileOutput = reader.ReadToEnd();
                 
